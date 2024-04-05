@@ -54,7 +54,7 @@ class exercise3 extends StatelessWidget {
                   Row(
                     children: [
                       Image.asset(
-                        'assets/qwerty.jpg',
+                        'assets/cars.jpg',
                         height: 50,
                         width: 100,
                       ),
