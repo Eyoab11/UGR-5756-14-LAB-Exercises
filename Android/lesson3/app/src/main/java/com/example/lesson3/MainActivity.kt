@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Lesson3Theme {
-                // A surface container using the 'background' color from the theme
+            
                 Surface(modifier = Modifier.fillMaxSize()) {
                     MessageCard(Message("Welcome", "Welcome to Jetpack Compose"))
                 }
