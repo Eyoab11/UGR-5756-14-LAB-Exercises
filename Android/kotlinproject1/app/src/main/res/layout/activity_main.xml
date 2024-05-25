@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonDecrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decrement"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp" />
+
+        <Button
+            android:id="@+id/buttonIncrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Increment"
+            android:layout_marginStart="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
